@@ -4,7 +4,7 @@ export default class ClassCounter extends Component {
   constructor(props) {
     super(props);
 
-    this.State = {
+    this.state = {
       count: 0,
     };
   }
