@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 function App() {
-  if (true) {
-    const [toDos, setToDos] = useState([]);
-  }
+  const [toDos, setToDos] = useState([]);
   const [input, setInput] = useState("");
 
   const addToDo = (e) => {
